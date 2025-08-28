@@ -1,17 +1,12 @@
-'use client'
+'use client';
 
-import React from 'react'
-import { useRouter } from 'next/navigation'
-import { useEffect } from 'react'
-import Dashboard from '@/components/pages/Dashboard'
-import Layout from '@/components/layout/Layout'
+import React from 'react';
+import Dashboard from './dashboard/page'; // using your dashboard route page component
 
 export default function HomePage() {
-  const router = useRouter()
-
   return (
-    <Layout currentPageName="Dashboard">
+    <div className="p-6 md:p-8">
       <Dashboard />
-    </Layout>
-  )
+    </div>
+  );
 }
