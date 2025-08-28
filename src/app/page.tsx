@@ -1,7 +1,7 @@
 'use client';
 
 import React from 'react';
-import Dashboard from './dashboard/page'; // using your dashboard route page component
+import Dashboard from './dashboard/page';
 
 export default function HomePage() {
   return (
